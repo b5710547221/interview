@@ -10,7 +10,7 @@ export class  Product {
   @ApiProperty({description: 'product name', required : true})
   @IsString()
   @IsNotEmpty()
-  required : true
+ 
   product_name: string;
 
   @Column()
